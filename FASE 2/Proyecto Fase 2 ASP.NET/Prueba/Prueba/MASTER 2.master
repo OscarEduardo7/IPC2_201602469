@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MASTER 2.master.cs" Inherits="MASTER" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+		<title>Proyecto_Ipc2</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+</head>
+
+<body>
+			<!-- Header -->
+			<header id="header">
+				<div class="inner">
+					<a href="Default.aspx" class="logo">Ninty</a>
+					<nav id="nav">
+						<a href="InicioSesion.aspx">Iniciar Sesion</a>
+						<a href="Registro.aspx">Registrarte</a>
+					</nav>
+					<a href="#navPanel" class="navPanelToggle"><span class="fa fa-bars"></span></a>
+				</div>
+			</header>
+
+		<!-- Banner -->
+			<section id="banner">
+				<h1 style="color: #000000">Ninty</h1>
+				<p style="color: #000000">Proyecto IPC2, Vacaciones Junio.</p>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="wrapper">
+				<form id="form1" runat="server">
+				<div>
+				<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+					<!-- Aqui la parte arriba -->
+				</asp:ContentPlaceHolder>
+				</div>
+				</form>
+			</section>
+
+		<!-- Pie de Pagina -->
+			<footer id="footer">
+				<div class="inner">
+					<div class="flex">
+						<div class="copyright" style="color: #808080">
+							&copy; "Proyecto IPC2" Deseño: <a href="#">Oscar Mazariegos</a>. Carne: <a href="#">201602469</a>.
+						</div>
+						<ul class="icons">
+							<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+						</ul>
+					</div>
+				</div>
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+</body>
+
+</html>
